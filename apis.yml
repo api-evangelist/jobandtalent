@@ -1,8 +1,25 @@
 aid: jobandtalent
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jobandtalent.png
 name: Jobandtalent
-description: 'Jobandtalent is a company surfaced as a portfolio company of atomico and added to the API
-  Evangelist network as a stub for enrichment. Sector: marketplace. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Jobandtalent is an AI-powered workforce marketplace that connects companies
+  with reliable staff for temporary and permanent roles across logistics, warehousing,
+  manufacturing, retail, and hospitality. Its platform combines a worker-facing mobile
+  app for finding shifts and jobs with an employer-facing business platform for recruitment,
+  shift planning, attendance management, and performance coaching. Founded in Spain and
+  backed by Atomico, Jobandtalent operates across Europe, the US, and Latin America.
+  This API Evangelist profile tracks the company''s public developer, security, and
+  compliance surface; the company publishes no public developer API at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/jobandtalent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Marketplace
+- Staffing
+- Workforce
+- Recruitment
+- Employment
+- Human Resources
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.jobandtalent.com
+- type: Blog
+  url: https://www.jobandtalent.com/companies/blog
+- type: Support
+  url: https://jobandtalent-us.kustomer.help/
+- type: TermsOfService
+  url: https://www.jobandtalent.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.jobandtalent.com/legal/privacy-notice
+- type: Security
+  url: https://www.jobandtalent.com/legal/vulnerability-disclosure-policy
+- type: Compliance
+  url: https://www.jobandtalent.com/security
+- type: SecurityTxt
+  url: well-known/jobandtalent-security.txt
+- type: WellKnown
+  url: well-known/jobandtalent-well-known.yml
+- type: TrustCenter
+  url: security/jobandtalent-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/jobandtalent-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/jobandtalent-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
